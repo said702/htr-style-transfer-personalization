@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Local data and models
+data/
+generic_model/
+AttentionHTR/
+One-DM/
+VATr/
+onedm_model/
+vatr_model/
+
+# Generated synthetic samples
+one_shot_styles/
+few_shot_styles/
+one_shot_samples/
+generated_vatr_all/
+few_shot_styles_10k_common_words/
+generated_vatr_10k_common_words/
+
+# Generated experiment artifacts
+lmdb_data/
+saved_models/
+experiment_results/
+progressive_real_train/
+test_real_data/
+train_real_data/
+train_real_data_progressive/
+word_group_data/
+mixed_real_synthetic_data/
+ordered_real_then_synthetic_data/
+big_style_transfer_train_val_split/
+binarized_big_style_transfer_train_val_split/
+binarization_data/
+synthetic_gobo_few_shot_binarization/
+big_style_transfer_binarization/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+few_shot_samples/
