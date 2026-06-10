@@ -108,7 +108,7 @@ python run_experiments.py
 
 The script automatically downloads the resources required for the enabled experiments. If the required files are already available locally, they are reused and are not downloaded again. See [Data and External Resources](#data-and-external-resources) for details.
 
-Result CSV files are saved under `experiment_results/`, with separate subfolders for each enabled experiment. The binarization results are stored separately as `Style_Transfer_Binarization` and `Big_Style_Transfer_Binarization`.
+Result CSV files are saved under `experiment_results/`, with separate subfolders for each enabled experiment.
 
 ## Configuration
 
